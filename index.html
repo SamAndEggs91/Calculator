@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<header>
+            <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 			<link rel="stylesheet" href="main.css" type="text/css">
 			<title>Sam's Calculator</title>
 			<h1>Sam's Calculator</h1>		
@@ -8,25 +9,27 @@
 		
 		<body>
 			<main>
-				<article>
-                    <p>
-					   Built this page to practice web&nbsp;programming!</br>And it calculates simple math problems&nbsp;too.
-                    </p>
-				</article>
-				<div class="calculator">
-					<input type=number id="number1" placeholder='First number'>
-					<select id="operatorSelection">
-						<option value="default" selected="selected">Choose an operator</option>
-						<option value="add">+ (add)</option>
-						<option value="subtract">- (subtract)</option>
-						<option value="multiply">* (multiply)</option>
-						<option value="divide">/ (divide)</option>
-					</select>
-					<input type=number id="number2" placeholder='Second number'><br/>
-					<button type="button" onclick="calculate()">Calculate</button>
-					<div id="answer">
-					</div>
-				</div>
+                <div id=pageInnerBorder>
+				    <article>
+                        <p>
+				    	   Built this page to practice web&nbsp;programming!</br>And it calculates simple math problems&nbsp;too.
+                        </p>
+				    </article>
+				    <div class="calculator">
+				    	<input type=number id="number1" placeholder='First number'>
+				    	<select id="operatorSelection">
+				    		<option value="default" selected="selected">Choose an operator</option>
+				    		<option value="add">+ (add)</option>
+				    		<option value="subtract">- (subtract)</option>
+				    		<option value="multiply">* (multiply)</option>
+				    		<option value="divide">/ (divide)</option>
+				    	</select>
+				    	<input type=number id="number2" placeholder='Second number'><br/>
+				    	<button type="button" onclick="calculate()">Calculate</button>
+                        <div id="answer">
+				    	</div>
+				    </div>
+                </div>
 
 			</main>
 		</body>
